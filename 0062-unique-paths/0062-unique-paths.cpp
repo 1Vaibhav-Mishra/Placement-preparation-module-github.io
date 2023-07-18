@@ -1,6 +1,6 @@
 class Solution {
 public:
-     int dp[101][101]{};
+     int dp[101][101];
     int uniquePaths(int m, int n, int i=0,int j=0) {
         
         if(i>=m||j>=n)
